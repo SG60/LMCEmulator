@@ -1,7 +1,4 @@
-﻿// Learn more about F# at http://fsharp.org
-// See the 'F# Tutorial' project for more help.
-// return an integer exit code
-module Program
+﻿module Program
 
 module IntegerLMC = 
     // LMC integer type. Range: -999 to 999, wraps around.
