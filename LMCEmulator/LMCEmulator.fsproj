@@ -25,6 +25,7 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DocumentationFile>bin\Debug\LMCEmulator.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
+    <OtherFlags>--sig:$(OutputPath)\sigout.fsi</OtherFlags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -48,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="LMCTypes.fsi" />
+    <Compile Include="LMCTypes.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
