@@ -33,8 +33,10 @@ let storeInMemory = Array.set memory
 let executeOpCode i a = 
     match i with
     // opcodes
-    | "1" -> Some i
-    | "2" -> Some i
+    | 0 -> Some 1Z
+    | 1 -> Some 1Z
+    | 2 -> Some 1Z
+    | 3 -> Some 1Z
     // Catch invalid inputs.
     | _ -> None
 
